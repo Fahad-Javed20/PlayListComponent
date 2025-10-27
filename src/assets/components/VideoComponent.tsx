@@ -7,7 +7,7 @@ interface VideoComponentProps {
 
 const VideoComponent = ({ video, index }: VideoComponentProps) => {
   return (
-    <div className="flex items-start gap-4 w-4/5 bg-white rounded-lg shadow-sm p-3 hover:shadow-md transition">
+    <div className="flex items-start gap-4 w-4/5 bg-white rounded-lg shadow-sm p-3 hover:shadow-xl transition">
       <div className="font-bold text-gray-600 w-6 text-center">{index}</div>
 
       <img

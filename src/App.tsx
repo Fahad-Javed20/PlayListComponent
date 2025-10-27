@@ -70,8 +70,8 @@ const Playlist2: VideoComponentType[] = [
     <>
       <div className="flex flex-col gap-4">
 
-      <PlayListComponent data = {Playlist1} />
-      <PlayListComponent data = {Playlist2} />
+      <PlayListComponent data = {Playlist1} description = "My Favourite Playlist 1" />
+      <PlayListComponent data = {Playlist2} description = "My Favourite Playlist 1"/>
       </div>
     </>
   )
