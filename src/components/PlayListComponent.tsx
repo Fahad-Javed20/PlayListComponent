@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from "react";
 import type { VideoComponentType } from "../types/VideoComponentType";
 import VideoComponent from "./VideoComponent";
