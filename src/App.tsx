@@ -1,6 +1,7 @@
 
 import './App.css'
 import PlayListComponent from './assets/components/PlayListComponent'
+import type { VideoComponentType } from './types/VideoComponentType';
 
 function App() {
   
